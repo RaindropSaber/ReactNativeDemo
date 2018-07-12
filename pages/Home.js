@@ -25,6 +25,7 @@ export default class Home extends Component<Props> {
                 {title:"相册功能",description:"react-native-image-picker",navigatePage:'Gallery'},
                 {title:"音频功能",description:"react-native-sound",navigatePage:'Audio'},
                 {title:"文件功能",description:"react-native-fs",navigatePage:'SysFile'},
+                {title:"数据储存",description:"realm-js",navigatePage:'Sqlite'},
             ],
 		}
     }
