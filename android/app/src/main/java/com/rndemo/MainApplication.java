@@ -3,6 +3,7 @@ package com.rndemo;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rnziparchive.RNZipArchivePackage;
 import io.realm.react.RealmReactPackage;
 import com.rnfs.RNFSPackage;
 import com.imagepicker.ImagePickerPackage;
@@ -29,6 +30,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNZipArchivePackage(),
             new RealmReactPackage(),
             new RNFSPackage(),
             new ImagePickerPackage(),
